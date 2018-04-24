@@ -1,6 +1,5 @@
 from turtle import *
-
-for j in range(3,7):
+for j in range(3,8):
     if j%2!=0:
         color("blue")
     else:
