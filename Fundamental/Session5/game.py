@@ -23,16 +23,16 @@ while loop:
 
     if go == "A":
         next_px -=1
-        # if next_px <0:
-        #     pass
-        # else:
-        #     px = next_px
     elif go== "D":
         next_px +=1
     elif go== "W":
         next_py -=1
     else:
         next_py +=1
+
+    if next_px == bx and next_py == by:
+        print("push box")
+
 
     if 0 <= next_px <4:
         px = next_px
